@@ -1,0 +1,16 @@
+[package]
+name = "cc2_rust_todo"
+version = "0.1.0"
+authors = ["John Hume <duelin.markers@gmail.com>"]
+
+[dependencies]
+rocket = "0.3.3"
+rocket_codegen = "0.3.3"
+rocket_contrib = "0.3.3"
+serde = "1.0"
+serde_derive = "1.0"
+serde_json = "1.0"
+diesel = { version = "0.99.0", features = ["postgres"] }
+diesel_infer_schema = { version = "0.99.0", features = ["postgres"] }
+dotenv = "0.9.0"
+stainless = "0.1.12"
